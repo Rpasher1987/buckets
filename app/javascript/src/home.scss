@@ -1,0 +1,44 @@
+.main-content {
+  padding-top: 100px; /* Change this value to adjust the space between the navbar and the content */
+}
+
+.login-card {
+  max-width: 400px;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar {
+  height: 80px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  font-size: 28px; /* adjust font size as needed */
+  font-family: "Montserrat", sans-serif; /* replace with your desired font */
+  font-weight: bold;
+  text-align: left;
+  margin-right: auto; /* push the navbar toggler to the right */
+}
+
+/* This will make the navbar toggler button align to the right */
+.navbar-toggler {
+  margin-left: auto;
+}
+
+/* This will make the navbar items centered */
+.navbar-collapse {
+  justify-content: center;
+}
+

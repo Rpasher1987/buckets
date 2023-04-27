@@ -1,0 +1,13 @@
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client .client {
+  width: 100%;
+}
+
+.client .client .btn {
+  width: 100%;
+}

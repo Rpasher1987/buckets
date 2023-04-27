@@ -1,0 +1,18 @@
+.cash-flows-container {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 50px; /* Set margin on CashFlows container to create space for ReturnRates */
+}
+
+.return-rates-container {
+  margin-top: 50px; /* Set initial margin */
+}
+
+@media screen and (min-width: 768px) {
+  .return-rates-container {
+    position: sticky;
+    top: calc(100vh - 240px); /* Subtract height of header and CashFlows container from viewport height */
+    margin-top: 0; /* Remove initial margin */
+  }
+}
